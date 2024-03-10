@@ -5,6 +5,7 @@ public class Room {
 	//variabile
 	private int lungime;
 	private int latime;
+	private int culoare;
 	
 	//metode
 	public int calculArie() {
@@ -18,10 +19,20 @@ public class Room {
 		//System.out.println(perimetru);
 		return 2 * (lungime + latime);
 	}
+	
+	public int afiseazaCuloareDreptunghi() {
+		return culoare;
+	}
 		
 	//constructor
 	public Room(int lungime, int latime) {
 		this.lungime = lungime;
 		this.latime = latime;
+	}
+	
+	public Room(int lungime, int latime, int culoare) {
+		this.lungime = lungime;
+		this.latime = latime;
+		this.culoare = culoare;
 	}
 }

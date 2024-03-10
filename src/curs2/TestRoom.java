@@ -11,6 +11,11 @@ public class TestRoom {
 		Room dormitor = new Room(8, 6);
 		System.out.println("Perimetru dormitor este: " + dormitor.calculPerimetru());
 		System.out.println("Arie dormitor este: " + dormitor.calculArie());
+		
+		Room culoare = new Room(1, 2, 3);
+		System.out.println("Culoarea este: " + culoare.afiseazaCuloareDreptunghi());
+		
+		
 	}
 
 }
