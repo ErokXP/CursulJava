@@ -22,11 +22,11 @@ public class CheckLetter {
 		System.out.println("Please enter a character:");
 		Scanner scan = new Scanner(System.in);
 		caracter = scan.next().charAt(0);
+		scan.close();
 	}
 	
 	public void checkIfCharacterIsLetter( ) {
-		askTheUserforACharacter();
-		
+				
 		if(Character.isLetter(caracter)) {
 			System.out.println("Character is a letter!");
 		}
