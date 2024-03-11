@@ -5,7 +5,7 @@ public class Room {
 	//variabile
 	private int lungime;
 	private int latime;
-	private int culoare;
+	private String culoare;
 	
 	//metode
 	public int calculArie() {
@@ -20,7 +20,7 @@ public class Room {
 		return 2 * (lungime + latime);
 	}
 	
-	public int afiseazaCuloareDreptunghi() {
+	public String afiseazaCuloareDreptunghi() {
 		return culoare;
 	}
 		
@@ -30,7 +30,7 @@ public class Room {
 		this.latime = latime;
 	}
 	
-	public Room(int lungime, int latime, int culoare) {
+	public Room(int lungime, int latime, String culoare) {
 		this.lungime = lungime;
 		this.latime = latime;
 		this.culoare = culoare;
