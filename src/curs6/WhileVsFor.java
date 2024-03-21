@@ -1,7 +1,7 @@
 package curs6;
 
-/*Facem un program care printeaza numere pare de la 0 la 20 inclusiv
- * 
+/*
+ * Facem un program care printeaza numere pare de la 0 la 20 inclusiv 
  */
 
 public class WhileVsFor {

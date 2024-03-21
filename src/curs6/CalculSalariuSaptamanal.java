@@ -3,13 +3,13 @@ package curs6;
 import java.util.Scanner;
 
 /*
- *Facem un program care calculeaza salariul pe o saptamana
- *intrebam userul cate ore a lucrat
- *calculam doar daca a lucrat minim 1 ora sau maxim 40 ore
- *daca introduce nr invalid il rugam sa introduca nr valid de ore 
- *salariul il calculam cu formula:
- *oreLucrate * ratePerHour
- *RatePerHour = 25
+ * Facem un program care calculeaza salariul pe o saptamana
+ * intrebam userul cate ore a lucrat
+ * calculam doar daca a lucrat minim 1 ora sau maxim 40 ore
+ * daca introduce nr invalid il rugam sa introduca nr valid de ore 
+ * salariul il calculam cu formula:
+ * oreLucrate * ratePerHour
+ * RatePerHour = 25
  */
 
 public class CalculSalariuSaptamanal {

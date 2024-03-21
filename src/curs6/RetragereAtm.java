@@ -3,11 +3,11 @@ package curs6;
 import java.util.Scanner;
 
 /*
- *Simulam o retragere de la un bancomat
- *avem un sold initial (ex: 1500) 
- *intreb userul cat vrea sa retraga si verific daca suma nu este mai mare decat soldul
- *daca suma este mai mare, ii printez fonduri insuficiente si il rog sa incerce din nou
- *la final printez: Retragere cu succes! si noul sold
+ * Simulam o retragere de la un bancomat
+ * avem un sold initial (ex: 1500) 
+ * intreb userul cat vrea sa retraga si verific daca suma nu este mai mare decat soldul
+ * daca suma este mai mare, ii printez fonduri insuficiente si il rog sa incerce din nou
+ * la final printez: Retragere cu succes! si noul sold
  */
 
 public class RetragereAtm {

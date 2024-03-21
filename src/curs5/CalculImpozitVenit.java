@@ -2,7 +2,8 @@ package curs5;
 
 import java.util.Scanner;
 
-/* Facem un program care calculeaza impozitul global
+/* 
+ * Facem un program care calculeaza impozitul global
  * Intrebam userul cate venituri are
  * Pentru fiecare venit in parte calculam impozit
  * Daca venitul este <=50000 atunci impozit este 0.1 daca nu este 0.15
