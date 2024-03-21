@@ -15,9 +15,9 @@ public class ConditionalOperator {
 		int nr1, nr2;
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Pease enter first number: ");
+		System.out.println("Please enter first number: ");
 		nr1 = scan.nextInt();
-		System.out.println("Pease enter second number: ");
+		System.out.println("Please enter second number: ");
 		nr2 = scan.nextInt();
 		
 		//verificam daca nr1 este pozitiv

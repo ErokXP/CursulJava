@@ -8,7 +8,7 @@ package curs4;
  */
 
 
-public class IncrementDecremnt {
+public class IncrementDecrement {
 
 	public static void main(String[] args) {
 		
